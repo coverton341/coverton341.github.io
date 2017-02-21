@@ -3,14 +3,13 @@
 	box-sizing: border-box;
 }
 
-
 #cover {
 	background: url("https://lonelyplanetimages.imgix.net/a/g/hi/t/9cf024dfd5c0bcb2b17f4785340145ea-san-francisco.jpg?sharp=10&vib=20&w=1200") no-repeat center center;
 	background-attachment: fixed;
 	background-size: cover;
 	position: relative;
 	height: 900px;
-	top: -55px;
+	top: 55px;
 	width: 100%;
 }
 
@@ -18,6 +17,6 @@
 	margin: 0 auto;
 	position: relative;
 	text-align: center;
-	top: 280px;
+	top: 350px;
 	width: 70%;
 }
