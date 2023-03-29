@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Magic Feet - Podiatric Practice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Services</a></li>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Contact Us</a></li>
+        </ul>
+      </nav>
+      <h1>Magic Feet</h1>
+      <h2>Podiatric Practice</h2>
+      <p>Christopher Overton, DPM</p>
+    </header>
+    <main>
+      <section>
+        <h2>Welcome to Magic Feet</h2>
+        <p>At Magic Feet, we specialize in the diagnosis and treatment of a wide range of foot and ankle conditions. We provide personalized treatment plans tailored to your unique needs, and prioritize patient education and empowerment.</p>
+        <a href="#contact-us">Book an Appointment</a>
+      </section>
+      <section>
+        <h2>Our Services</h2>
+        <ul>
+          <li>Ingrown toenails</li>
+          <li>Plantar fasciitis</li>
+          <li>Bunions</li>
+          <li>Heel spurs</li>
+          <li>Neuromas</li>
+          <li>Diabetic foot care</li>
+        </ul>
+      </section>
+      <section>
+        <h2>About Us</h2>
+        <p>At Magic Feet, we are committed to providing the highest level of care to help you maintain healthy, pain-free feet. Our team is dedicated to providing compassionate care that puts your needs first. We believe in empowering our patients to take an active role in their foot health, and take the time to thoroughly explain your condition and treatment options.</p>
+      </section>
+      <section id="contact-us">
+        <h2>Contact Us</h2>
+        <form action="submit-form.php" method="post">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Message:</label>
+          <textarea id="message" name="message"></textarea>
+          <button type="submit">Send</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Magic Feet - Podiatric Practice</p>
+    </footer>
+  </body>
+</html>
